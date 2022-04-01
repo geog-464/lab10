@@ -146,3 +146,5 @@ Good luck debugging!
 # Deliverables
 
 All answered questions inside your *index.html* (2 points each) and a functioning webmap that contains the data, styles and functionalities according to the modifications made throughout the lab (tilesets, styles, popups, map loading dropdown etc.). Each of these enhancements is graded separately based on completion and functionality (1,1,2,4 points respectively).
+
+Make sure your repo is deployed as a Github page, or your lab will not be graded! 

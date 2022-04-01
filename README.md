@@ -2,7 +2,7 @@
 
 The goal of this lab is to have you create a basic web atlas. The distinction we are making here between a simple map and atlas refers to the fact that our web atlas will allow the user to toggle and reload different data layers. 
 
-This lab will also introduce you to event handlers, which allow you to attach functionality to existing DOM elements and trigger specific changes on the webpage when the event occurs.
+This lab will also introduce you to event handling, which allow you to attach functionality to existing DOM elements and trigger specific changes on the webpage when the event occurs.
 
 Refer to the previous lab for help with setting up your workspace.
 
@@ -47,7 +47,7 @@ We will start by passing two built-in *options* recognized by the *geoJson* meth
 - Add the following JS object as an additional parameter in the *L.geoJson* function call, directly following the *json* argument: `{style: styleAll, pointToLayer: generateCircles}`.
 - Elsewhere in your script file, declare the functions you're calling (use template below, and make sure your functions are declared before they are called!):
 
-```
+```javascript
 function generateCircles(feature, latlng) {
 	return L.circleMarker(latlng);
 }
@@ -146,7 +146,3 @@ Good luck debugging!
 # Deliverables
 
 All answered questions inside your *index.html* (2 points each) and a functioning webmap that contains the data, styles and functionalities according to the modifications made throughout the lab (tilesets, styles, popups, map loading dropdown etc.). Each of these enhancements is graded separately based on completion and functionality (1,1,2,4 points respectively).
-
-# Additional resources
-
-- [Using GeoJSON with Leaflet](https://leafletjs.com/SlavaUkraini/examples/geojson/), in which they load GeoJSON locally as done in a previous lab.

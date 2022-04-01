@@ -73,7 +73,7 @@ function styleAll(feature, latlng) {
 
 Notice you are accessing an element found in your GeoJSON data here (accessible from the default *feature* parameter)... what else could you access here? Notice our *generateCircles* function gets passed 2 parameters from [*pointToLayer*](https://leafletjs.com/SlavaUkraini/reference.html#geojson-pointtolayer), and adds a [circleMarker](https://leafletjs.com/SlavaUkraini/reference.html#circlemarker) for every latlng (a leaflet object that contains coordinates). You can do a lot with this...
 
-- paste a `console.log()` statement at the top of your *styleAll* function so that it prints the ZIP codes and reload your page. Observe the ZIP codes in your inspector console (you might want to look at the link to your raw data on Github again...)
+- paste a `console.log()` statement at the top of your *styleAll* function so that it prints the ZIP codes and reload your page. You can access the data's ZIP code values inside the feature object... Observe the ZIP codes in your inspector console (you might want to look at the link to your raw data on Github again...)
 
 - 📝 [Q3] Add a conditional statement to your *styleAll* function that will style the *fillColor* of features containing a Canadian postal code. Use the colour 'cyan' instead of '#fff' for these.
 

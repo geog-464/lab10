@@ -87,7 +87,7 @@ As you can see, like the other functions we've been adding, you have access to a
 
 - 📝 [Q4] What is *feature* and what is *layer* here? What do they refer to?
 
-- Add the next few lines inside your *bindPopup* function (this is just an exercise):
+- Add the next few lines inside your *addPopups* function (this is just an exercise):
 ```javascript
 console.log(layer._radius)
 console.log(layer.options.fill)
